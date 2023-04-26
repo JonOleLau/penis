@@ -6,6 +6,6 @@ java_files=$(find . -name "*.java")
 # Compile all the .java files
 javac $java_files
 
-javac --version
+javac -version
 
 echo "Java files have been compiled successfully."
